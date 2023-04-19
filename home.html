@@ -1,10 +1,58 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 03</title>
 </head>
 <body>
-
+<main>
+    <form>
+        <h1>Formulario de registro de usuarios</h1>
+        <div>
+            <label for="dni">Dni</label>
+            <input id="dni" type="number">
+        </div>
+        <div>
+            <label for="nombre">Nombre</label>
+            <input id="nombre" type="text"/>
+        </div>
+        <div>
+            <label for="apellido">Apellido</label>
+            <input id="apellido" type="text"/>
+        </div>
+        <div>
+            <label for="fechaNacimiento">Fecha de nacimineto</label>
+            <input id="fechaNacimiento" type="date">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input id="email" type="email"/>
+        </div>
+        <div>
+            <legend>Estado civil:</legend>
+            <label for="soltero">Soltero</label>
+            <input type="radio" id="soltero" name="estado-civil">
+            <label for="casado">Casado</label>
+            <input type="radio" id="casado" name="estado-civil">
+            <label for="viudo">Viudo</label>
+            <input type="radio" id="viudo" name="estado-civil">
+        </div>
+        <div>
+            <label>Pais de residencia</label>
+            <select name="pais">
+                <option id="Argentina">Argentina</option>
+                <option id="Brasil">Brasil</option>
+                <option id="Francia">Francia</option>
+                <option id="Mexico">Mexico</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit">Registrarse</button>
+        </div>
+    </form>
+</main>
 </body>
 </html>
