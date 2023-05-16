@@ -17,7 +17,7 @@ p {
 
 @media screen and (max-width: 500px){
     p {
-        width: 50%;
+        width: 100%;
         font-family: "Roboto Light";
         font-size: large;
         background: red;
