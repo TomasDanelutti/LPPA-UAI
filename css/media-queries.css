@@ -1,0 +1,235 @@
+@media screen and (min-width:1024px){
+
+    header{
+        background-color: #989696;
+        text-align: center;
+        padding: 2rem;
+        height: auto;
+    }
+    
+    body{
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #989696;
+        text-align: center;    
+        font-family: Arial, Helvetica, sans-serif;
+        color: #000000;
+    }
+    
+    nav{
+        height: auto;
+        width: 90%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        background-color: #989696;
+        border: #595b7b solid 1rem;
+        padding: 20px;
+        margin: auto;
+    }
+    
+    ul.menu{
+        margin-left: 0;
+        margin-right: 5%;
+        padding:0;
+        list-style-type: none;
+        margin: 0;
+    }
+
+    ul.menu li{
+        display: inline;
+    }
+    
+    ul.menu li a{
+        background-color: #8a92dc;
+        padding: 0.75rem;
+        display: inline-block;
+        color: #ffffff;
+        text-decoration: none;
+        text-align: center;
+        font-size:1rem;
+        font-style: normal;
+        margin: 1rem;
+
+    }
+    
+    ul.menu li a:hover{
+        background-color: #ffffff;
+        color: #000000;
+    }
+    
+    .principal{
+        margin-top: 5%;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        display: flex;
+        flex-direction: column;
+        order: 2;
+    }
+    
+    section:after{
+        content: "";
+        display: table;
+    }
+    
+    .derecha{
+        margin-top: 5%;
+        margin-bottom: auto;
+        width: 15%;
+        float: right;
+        margin-right: 2%;
+        margin-left: 1%;
+        order: 3;
+    }
+    
+    .izquierda{
+        margin-top: 5%;
+        margin-bottom: auto;
+        width: 15%;
+        float: left;
+        margin-left: 2%;
+        margin-right: 1%;
+        order: 1;
+    }
+
+    iframe{
+        max-width: 90%;
+        max-height: 90%;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    img{
+        max-width: 90%;
+        max-height: 90%;
+    }
+    
+    .links{
+        color: rgb(0, 255, 255);
+        font-style: italic;
+    }
+    
+    .links:hover{
+        color: rgb(0, 253, 169);
+    }
+    
+    .tabla {
+        border: #ffffff solid 0.2rem;
+        margin-right: 33%;
+        margin-left: 33%;
+        margin-bottom: 1rem;
+    }
+    
+    footer{
+        width: auto;
+        height: 6.25rem;
+        background-color: #989696;
+        margin-right: 0;
+    }
+    
+    #copyright{
+        position: relative;
+        top: 70%;
+        bottom: 10%;
+    }
+    
+    /*Estilo del formulario de suscripción*/
+    /* Importación de fuentes de google fonts */ 
+    @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+    
+    .formulario{  
+      width: 28.75rem; 
+      height: auto;
+      margin: 5rem auto;
+      border-radius: 0.625rem;  
+      padding-top: 1.875rem;
+      padding-bottom: 1.25rem;  
+      background-color: #01094F;
+      padding-left: 1.875rem; 
+    }
+    
+    input{
+      background-color: #fbfbfb; 
+      width: 25.5rem; 
+      height: 2.5rem; 
+      border-radius: 0.313rem;  
+      border-style: solid; 
+      border-width: 0.063rem; 
+      border-color: #000000; 
+      margin-top: 0.625rem;  
+      padding-left: 0.625rem;
+      margin-bottom: 1.25rem; 
+    }
+    
+    label{
+      display: block; 
+      float: center;  
+    }
+    
+    button{
+      height: 2.813rem; 
+      padding-left: 0.313rem;
+      padding-right: 0.313rem;   
+      margin-bottom: 1.25rem; 
+      margin-top: 0.625rem;   
+      text-transform: uppercase;
+      background-color: #041DFA;
+      border-color: #01094F;
+      border-style: solid; 
+      border-radius: 0.625rem;  
+      width: 26.25rem;   
+      cursor: pointer;
+      text-shadow: 0.063rem 0.063rem black;
+    }
+    
+    button p{
+      color: #fff; 
+    }
+    
+    span{
+      color: #fff; 
+    }
+    
+    .aviso{
+      font-size: 13px;  
+      color: #fc0505;  
+    }
+    
+    ::-webkit-input-placeholder {
+     color: #a8a8a8;
+    }
+    
+    ::-webkit-textarea-placeholder {
+     color: #a8a8a8;
+    }
+    
+    .formulario input:focus{
+      outline:0;
+      border: 1px solid #fff;
+    }
+    
+    .formulario textarea:focus{
+      outline:0;
+      border: 1px solid #fff;
+    }
+    
+    .fecha{
+        font: italic;
+        font-size: small;
+        color: #a8a8a8;
+        float: right;
+    }
+
+    /*oculto icono de la hamburguesa*/
+
+    .respmenu input[type="checkbox"] {
+        display: none;
+    }
+}
