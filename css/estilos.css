@@ -1,5 +1,5 @@
 header{
-    background-color: #000000;
+    background-color: #989696;
     text-align: center;
     padding: 2rem;
     height: auto;
@@ -8,7 +8,7 @@ header{
 body{
     margin-left: auto;
     margin-right: auto;
-    background-color: #000000;
+    background-color: #989696;
     text-align: center;    
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
@@ -60,7 +60,7 @@ img{
 footer{
     width: auto;
     height: 6.25rem;
-    background-color: #041DFA;
+    background-color: #989696;
     margin-right: 0;
 }
 
@@ -110,7 +110,7 @@ button{
   margin-bottom: 1.25rem; 
   margin-top: 0.625rem;   
   text-transform: uppercase;
-  background-color: #091689;
+  background-color: #989696;
   border-color: #01094F;
   border-style: solid; 
   border-radius: 0.625rem;  
@@ -120,7 +120,7 @@ button{
 
 button:hover{
   background-color: #fbfbfb;
-  color: #000000;
+  color: #989696;
 }
 
 button p{
@@ -169,7 +169,7 @@ span{
     padding: 0.625rem 1.25rem;
     border-bottom: 0.125rem solid #01094F;
     max-width: 12.5rem;
-    background: #041DFA;
+    background: #989696;
     font-variant: small-caps;
     text-shadow: 0.063rem 0.063rem black;
   }
@@ -198,7 +198,7 @@ span{
   .respmenu {
     color: #a8a8a8;
     position: relative;
-    background: #041DFA;
+    background: #989696;
     min-height: 3rem;
   }
   
